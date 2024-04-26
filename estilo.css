@@ -1,0 +1,88 @@
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #82E0AA;
+   
+    ;
+  }
+  
+  /* Estilo del título */
+  .title {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+  }
+  #Logo{
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 5px;
+  }
+  /* Estilo del contenedor principal */
+  .box {
+    width: 80%;
+    margin: 0 auto;
+   
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Estilo de las áreas de texto */
+  textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border: 2px solid #ccc;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
+  }
+  
+  /* Estilo de los botones */
+  input[type="button"] {
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Estilo del botón de enviar */
+  input[value="Enviar"] {
+    background-color: green;
+  }
+  
+  /* Estilo del botón de desencriptar */
+  input[value="Desencriptar"] {
+    background-color: blue;
+  }
+  
+  /* Estilo del botón de copiar */
+  input[value="Copiar"] {
+    background-color: orange;
+  }
+  
+  /* Estilo de los contenedores de texto y botones */
+  .textEn, .mEn {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer{
+    text-align: center;
+    background:#7F8C8D;
+    padding: 30px;
+}
+.git{
+  color: #283747 ;
+  font-size: 13px;
+  margin: 20px;
+}
+#Git{
+  height: 100px;
+  width: 100px;
+}
